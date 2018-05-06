@@ -9,10 +9,6 @@ import time
 from datetime import datetime
 
 def setAuth():
-	ACCESS_TOKEN = '570259739-4u7BUZr6jEkwOPNnh46b3yOupCditBI6fVaT34aR'
-	ACCESS_SECRET = 'YFpqCtdEVglZs4W7PbeL10Mq8zHYPdExvVZ8u7I3GPp65'
-	CONSUMER_KEY = 'GsaV4E0nUX8ns4nNMmZihEXUD'
-	CONSUMER_SECRET = 'zED1r57gysR7aL9dguhWHZxgSknf60juzGCRzFSzFaebsczR3O'
 	consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
 	access_token = oauth.Token(key=ACCESS_TOKEN, secret=ACCESS_SECRET)
 	client = oauth.Client(consumer, access_token)
